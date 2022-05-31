@@ -30,7 +30,7 @@ namespace DataAccess
                 cmd.Parameters.AddWithValue("@PrinterCode", printerCode);
                 cmd.Parameters.AddWithValue("@Msg", msg);
 
-
+                //ddddddd
                 cmd.ExecuteNonQuery();
             }
                 return "Success";
